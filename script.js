@@ -23,7 +23,7 @@ function getInput(){
     }
   }
   
-  //Function to display number with commas
+  //Function to display 
   function getFormattedNumber(num){
     if(num=="-"){
       return "";
