@@ -29,7 +29,7 @@ function getInput(){
       return "";
     }
     let n = Number(num);
-    let value = n.toLocaleString("en");
+    let value = n.toLocaleString("e");
     return value;
   }
   
