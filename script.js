@@ -52,7 +52,7 @@ function getInput(){
       }
       else if(this.id=="backspace"){
         let output = reverseNumberFormat(getOutput()).toString();
-        if(output){ //if output has a value
+        if(output){ //if output has a
           output = output.substr(0,output.length-1);
           printOutput(output);
         }
